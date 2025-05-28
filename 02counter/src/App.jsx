@@ -12,10 +12,11 @@ function App() {
     setCounter(counter+1);
 
   }
-  // const decValue = ()=> {
-  //   counter = counter-1;
-  //   console.log('click here to decrease value', counter);
-  // }
+  const decValue = ()=> {
+    console.log('click here to decrease value', counter);
+    // counter = counter-1;
+    setCounter(counter-1);
+  }
 
   return (
     <>
@@ -23,7 +24,7 @@ function App() {
     <h2>counter number: {counter}</h2>
     <button onClick={addValue}>Add value{counter}</button>
     <br />
-    <button>Decrease Value{counter}</button>
+    <button onClick={decValue}>Decrease Value{counter}</button>
     <p>this is paragraph {counter}</p>
 
     </>
