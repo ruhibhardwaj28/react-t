@@ -1,6 +1,8 @@
+import { useState } from "react"
 
 function App() {
-  const [count, setCount] = useState(0)
+ const [length, setLength] = useState(8)
+ 
 
   return (
     <>
