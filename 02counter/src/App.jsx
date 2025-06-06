@@ -7,13 +7,13 @@ function App() {
   let [counter, setCounter] = useState(15);
   // let counter = 15;
   const addValue = ()=>{
-    console.log('click here to add value', counter)
+    console.log('click here to add the value', counter)
     
     setCounter(counter+1);
 
   }
   const decValue = ()=> {
-    console.log('click here to decrease value', counter);
+    console.log('click here to decrease the value', counter);
     // counter = counter-1;
     setCounter(counter-1);
   }
