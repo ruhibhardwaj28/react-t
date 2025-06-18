@@ -3,7 +3,7 @@ import { useState , useCallback, useEffect, useRef } from "react"
 function App() {
  const [length, setLength] = useState(8)
  const[numberAllowed , setNumberAllowed] = useState(false);
- const[charAllowed, setcharAllowed] = useState(false);
+ const[charAllowed] = useState(false);
  const[password, setPassword] = useState("")
 
 //useRef Hook
